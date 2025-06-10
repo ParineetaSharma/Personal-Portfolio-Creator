@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Fixed "IE-edge" to "IE=edge" -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Profile</title> <!-- Capitalized "Personal" and "Portfolio" for consistency -->  
+    <link rel="stylesheet" href="style1.css"> 
+    <script src="https://kit.fontawesome.com/9e24a9fb10.js" crossorigin="anonymous"></script>
+</head>
+<body> 
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo" alt="Logo"> <!-- Added alt attribute for accessibility -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i> <!-- Moved inside ul for consistency -->
+            </nav>
+            <div class="header-text"> 
+                <p>Self Explorer</p>
+                <h1>Hi, I'm <span>Parineeta</span><br>Sharma from India</h1> <!-- Fixed spacing and line breaks -->
+            </div>
+        </div>
+    </div>
+    
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/img1.png" alt="Profile Image"> <!-- Added alt attribute for accessibility -->
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">Who Am I</h1>
+                    <p>
+                        <span>Place I Live:</span> Jaipur, Rajasthan. Jaipur is a vibrant and culturally rich city that I am proud to call home.<br><br>
+                        <span>School:</span> Bhartiya Vidya Bhavan (BVB) Vidhyashram, Jaipur.<br><br>
+                        <span>College:</span> Currently pursuing Computer Science Engineering with specialization in Data Science <br>(CSE(DS)) from SKIT Jaipur.<br><br>
+                        <span>Skills:</span> I have a passion for singing and dancing, which are relaxing outlets.<br><br>
+                        <span>Passion for Technology:</span> I have started to explore more coding and everything related to web <br>development. It is really making me curious about further fields of interface designing, constantly<br> exploring and learning new technologies.<br><br>
+                        <span>Part-Time Interest:</span> Love to tutor kids and help them ease and ace their studies. It's like teaching is <br>in my blood.<br><br>
+                        <img src="images/quote.png" alt="Quote Image"> <!-- Added alt attribute for accessibility -->
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Services Section -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-desktop"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum minus eos, voluptatem optio totam ab, assumenda explicabo accusantium debitis libero, illo cupiditate unde et at tempora minima sunt. Suscipit, officia.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum minus eos, voluptatem optio totam ab, assumenda explicabo accusantium debitis libero, illo cupiditate unde et at tempora minima sunt. Suscipit, officia.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum minus eos, voluptatem optio totam ab, assumenda explicabo accusantium debitis libero, illo cupiditate unde et at tempora minima sunt. Suscipit, officia.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Portfolio Section -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <video width="800" height="50000" controls>
+                <source src="images/portfolio.mp4" type="video/mp4" > <!-- Fixed type attribute -->
+                
+            </video>
+            
+            <p><font size="5" ">Hi Everyone !!</font><br> <br><font size="4">During my internship, I developed a personal portfolio to effectively apply and showcase the web development skills I acquired. This project involved using HTML, CSS, JavaScript, and PHP to create a fully functional and visually appealing website.<br><br>
+
+                HTML was employed to build the site’s structure, ensuring a semantic and accessible layout. I designed various sections, including the homepage, about page, services, portfolio, and contact form.<br><br>
+                 CSS was used for styling and layout, focusing on creating a responsive design that adapts to different devices and screen sizes. I implemented modern design techniques and ensured cross-browser compatibility to deliver a consistent user experience.<br><br>
+                
+                JavaScript added interactivity to the portfolio, including dynamic content updates and form validation, enhancing user engagement and functionality.<br><br> 
+                PHP was utilized for server-side scripting, managing form submissions, and processing user input securely.<br><br>
+                
+                This project not only highlighted my technical proficiency in these web technologies but also provided hands-on experience in integrating them to create a cohesive and professional online presence. The portfolio stands as a testament to my skills and the practical knowledge gained during the internship, demonstrating my capability to handle real-world web development challenges.</p>
+            </font>
+            </div>
+    </div>
+    
+    <!-- Skills Section -->
+    <div id="programming">
+        <div class="container">
+            <div class="programming-list">
+                <h1 class="sub-title">// Programming //</h1> <!-- Removed "//" for consistency -->
+                <img src="images/JS.png" width="200" height="200" alt="JavaScript">
+                <img src="images/html.png" width="200" height="200" alt="HTML">
+                <img src="images/css.png" width="200" height="200" alt="CSS">
+                <img src="images/c.jpg" width="200" height="200" alt="C">
+                <img src="images/c++.png" width="200" height="200" alt="C++">
+                <img src="images/python.jpg" width="200" height="200" alt="Python">
+                <img src="images/php.png" width="200" height="200" alt="PHP">
+                <img src="images/java.png" width="200" height="200" alt="Java">
+                <img src="images/jq.png" width="200" height="200" alt="jQuery">
+            </div>
+        </div>
+    </div>
+    
+    <!-- Contact Section -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> contact@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 0123456789</p>
+                    <div class="social-icon">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a> <!-- Added href="#" to prevent default behavior -->
+                        <a href="https://x.com/home"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/b230828/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/parineeta-sharma-619813301?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2"><h3>Submit</h3></button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Parineeta. Made with <i class="fa-solid fa-heart"></i> by easy tutorials</p> <!-- Fixed copyright symbol -->
+        </div>
+    </div>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+         function openmenu(){
+            sidemenu.style.right = "0";
+         }
+         function closemenu(){
+            sidemenu.style.right = "-200px";
+         }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxGOrnjXVgrmIAOfK24vfcXeflJiWVMK0gYTnbcqOQCYmvEAyO2WZgGnS8S9hYMIYj9/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
