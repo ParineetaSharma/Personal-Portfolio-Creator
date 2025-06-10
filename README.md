@@ -1,56 +1,6 @@
 # Personal-Portfolio-Creator
 Since everything is being digitalized so one of the most effective of presenting yourself is through your Personal Portfolio Website. Hence, this project/website aims to provide users a with a simple and efficient platform to create professional resumes . By leveraging technologies like HTML,CSS, PHP. 
 
-import React from 'react';
-import { FaStar, FaBook, FaBriefcase, FaBolt, FaRegSmile, FaUsers, FaGraduationCap, FaLaptopCode } from 'react-icons/fa';
-
-const highlights = [
-  {
-    icon: <FaStar />,
-    title: 'Dual Purpose',
-    description: (
-      <>
-        Your website serves as both your <strong>personal portfolio</strong> 🌟 and a practical <strong>guide</strong> 📖 for users to create their own. This hands-on demonstration provides tangible value.
-      </>
-    ),
-  },
-  {
-    icon: <FaBriefcase />,
-    title: 'Instant Resume Generation',
-    description: (
-      <>
-        Users can effortlessly craft a <strong>professional resume</strong> 💼, saving them valuable time and effort.
-      </>
-    ),
-  },
-  {
-    icon: <FaBolt />,
-    title: 'Efficiency & Quality',
-    description: (
-      <>
-        The platform is engineered for <strong>speed</strong> ⚡ without compromising the <strong>professionalism</strong> or <strong>quality</strong> ⭐ of the output.
-      </>
-    ),
-  },
-  {
-    icon: <FaRegSmile />,
-    title: 'User-Centric Design',
-    description: (
-      <>
-        With an <strong>intuitive interface</strong>, your tool is easy to navigate and use 👍, making it accessible to a wide audience.
-      </>
-    ),
-  },
-  {
-    icon: <FaUsers />,
-    title: 'Broad Appeal',
-    description: (
-      <>
-        This makes your platform an ideal resource for <strong>job seekers</strong> 🎯, <strong>students</strong> 🎓, and <strong>professionals</strong> 🧑‍💻 aiming to present their credentials concisely and effectively.
-      </>
-    ),
-  },
-];
 
 export default function ProjectHighlights() {
   return (
